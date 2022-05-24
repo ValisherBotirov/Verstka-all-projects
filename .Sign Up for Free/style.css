@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  margin: 20px auto;
+  width: 75%;
+  height: 820px;
+  background-color: rgb(22, 50, 66);
+}
+
+.header {
+  margin: 20px auto;
+  margin-left: auto;
+}
+
+.navbar {
+  margin: 20px auto;
+  margin-left: 80px;
+}
+
+button {
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  font-size: 25px;
+  margin: 40px auto;
+  text-align: center;
+  border: none;
+}
+
+.btn1 {
+  background-color: rgb(62, 214, 62);
+  color: white;
+  border: none;
+}
+
+.btn2 {
+  border: none;
+  background-color: rgb(87, 116, 148);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+form {
+  margin: 20px auto;
+}
+
+.name {
+  margin: 20px 60px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.add {
+  height: 40px;
+  width: 925px;
+  display: block;
+  margin: 20px;
+  margin-left: 60px;
+  background-color: rgb(146, 190, 238);
+}
+
+.add1 {
+  height: 40px;
+  width: 925px;
+  display: block;
+  margin: 20px;
+  margin-left: 60px;
+  background-color: rgb(146, 190, 238);
+}
+
+.btn {
+  height: 60px;
+  width: 1000px;
+  display: block;
+  background-color: rgb(62, 214, 62);
+  color: white;
+}
