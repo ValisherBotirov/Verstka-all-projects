@@ -1,0 +1,55 @@
+.main {
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 350px;
+  height: 600px;
+  text-align: center;
+}
+
+.nav {
+  border-radius: 25px 25px 0 0;
+  color: white;
+  background-color: blue;
+  height: 100px;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.nav p {
+  padding: 3px;
+  padding-bottom: ;
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav2 {
+  text-align: left;
+  padding: 30px;
+}
+
+.nav2 p {
+  font-size: 20px;
+}
+
+.sum {
+  text-align-last: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+button {
+  margin-left: auto;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
