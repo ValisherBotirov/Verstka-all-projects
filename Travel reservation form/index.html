@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Travel reservation form</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Travel reservation form</h1>
+      <h2>* denotes mandotory</h2>
+      <form action="">
+        <label for="name">Full name*:</label><br />
+        <input type="text" id="name" placeholder="FirstName LastName" /><br />
+        <label for="email">Email address*:</label><br />
+        <input type="text" id="email" placeholder="EMAIL_ADDRESS" /><br />
+        <label for="sel">Select Tour Package*:</label><br />
+        <select>
+          <option value="goa">Goa</option>
+          <option value="goa2">Goa</option></select
+        ><br />
+        <label for="date">Arrival date*:</label><br />
+        <input type="date" name="date" id="date" placeholder="m/d/y" /><br />
+        <label for="num">Number of person*:</label><br />
+        <input
+          type="number"
+          name="num"
+          id="num"
+          placeholder="UNKNOWN_TYPE"
+        /><br />
+        <label for="">What would you want to avail?*</label><br />
+        <label for="boar">Boarding</label>
+        <input type="checkbox" name="boar" id="boar" /><br />
+        <label for="foo">Fooding</label>
+        <input type="checkbox" name="foo" id="foo" /><br />
+        <label for="sig">Sight seeing</label>
+        <input type="checkbox" name="sig" id="sig" /><br />
+        <label for="code">Discout Coupon code:</label><br />
+        <input type="text" placeholder="UNKNOWN_TYPE" /><br />
+        <label for="term">Terms and conditions*</label><br />
+        <input type="radio" value="agree" name="radio" />
+        <label for="">I agree</label>
+        <input type="radio" value="disagree" name="radio" />
+        <label for="">I disagree</label><br />
+        <button>Complete reservation</button>
+      </form>
+    </div>
+  </body>
+</html>
