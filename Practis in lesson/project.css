@@ -1,0 +1,47 @@
+.box {
+  width: 400px;
+  height: 600px;
+  border: 1px solid green;
+  border-radius: 25px;
+  background-color: green;
+  margin: 80px auto;
+  position: relative;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-image: url("/img.jpeg");
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  padding: 10px;
+  color: white;
+}
+
+p {
+  color: white;
+  padding: 10px;
+}
+
+p::after {
+  content: "Valisher";
+  font-size: 20px;
+  color: red;
+}
+
+.bt1 {
+  background-color: rgb(5, 252, 108);
+  position: absolute;
+  left: 250px;
+  top: 530px;
+  width: 80 px;
+  height: 40px;
+}
