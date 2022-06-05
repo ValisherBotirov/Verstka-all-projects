@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sqr {
+  width: 1100px;
+  height: 540px;
+  background-color: rgb(143, 245, 240);
+  margin: 50px auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.h3 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.sqr1 {
+  width: 800px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px auto;
+  /* position: fixed; */
+}
+
+.abzas {
+  margin-left: 30px;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.btnUzun {
+  width: 308px;
+  height: 30px;
+  margin-top: 20px;
+  text-align: right;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.button3 {
+  margin-top: 20px;
+}
+
+.button3_2 {
+  margin-top: 20px;
+}
+
+.btn5 {
+  width: 90px;
+  height: 30px;
+  margin-left: 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(6, 37, 16);
+}
+
+.btn15 {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #fff;
+  border: none;
+  background-color: rgb(43, 124, 70);
+}
+
+.btnc {
+  width: 90px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+h4 {
+  padding-top: 20px;
+}
+
+.sqr2 {
+  display: inline-block;
+  margin-left: 30px;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  background-color: rgb(6, 37, 16);
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.h4 {
+  color: #fff;
+  display: inline-block;
+}
+
+.personWord {
+  color: rgb(111, 192, 138);
+}
+
+.raqam {
+  color: rgb(111, 192, 138);
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 180px;
+}
+.raqam1 {
+  color: rgb(111, 192, 138);
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 215px;
+}
+.reset {
+  width: 300px;
+  height: 30px;
+  background-color: rgb(111, 192, 138);
+  border: none;
+  border-radius: 5px;
+  margin: 80px auto;
+  margin-left: 20px;
+}
+
+.group {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.group1 {
+  display: inline-block;
+  padding-top: 20px;
+}
