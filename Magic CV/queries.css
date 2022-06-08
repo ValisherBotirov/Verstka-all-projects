@@ -1,0 +1,78 @@
+html {
+  /* font-size: 62.5%; */
+}
+@media (max-width: 1241px) {
+  .boxLogo {
+    width: 29%;
+    height: 9.6 rem;
+  }
+
+  /* .projectFlex {
+    display: flex;
+    justify-content: space-between;
+    
+  } */
+
+  /* .projectGrid1,
+  .projectGrid2,
+  .projectGrid3 {
+    display: grid;
+    grid-template-columns: 30%;
+    grid-template-rows: 24rem 24rem 30rem;
+    gap: 1.6rem;
+  }
+
+.boxGrid1-1,.boxGrid1-2,.boxGrid1-3 {
+  width: 36rem;
+  height: 23rem;
+  
+} */
+
+@media (max-width: 1100px){
+  .servicesFlex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .textServices p{
+    line-height: 20px;
+    padding: 10px 5px 15px 5px;
+  }
+  .boxServices{
+    grid-row-start: 1;
+    justify-items: center;
+  }
+
+  .boxService .media{
+    display: grid;
+    justify-content: center;
+    
+  }
+
+
+
+
+  /* .boxServices .media{
+    display: grid;
+    justify-items: center;
+    margin-left: 30rem;
+  } */
+
+
+
+
+  .headerRight{
+    display: none;
+  }
+
+  .bannerGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logoFlex{
+    display: flex;
+    flex-direction: column;
+  }
+}
