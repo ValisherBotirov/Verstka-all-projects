@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(243, 176, 154, 0.747);
+}
+
+.contaner {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.rightHeader {
+  float: right;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.rightHeader li {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.rightHeader li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.bgcLi a {
+  background-color: orange;
+  padding: 10px;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.bannerTextGroup {
+  width: 50%;
+}
+
+.bannerImg {
+  width: 45%;
+  height: 80vh;
+  margin-right: 30px;
+}
+
+.bannerTextGroup h2 {
+  font-size: 35px;
+  font-weight: bold;
+  width: 70%;
+}
+
+.loremBanner {
+  padding: 20px 0;
+  line-height: 25px;
+  width: 80%;
+}
+
+.btnBannerOne {
+  width: 180px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btnBannerTwo {
+  width: 180px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.groupAvatarBanner {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  position: relative;
+}
+
+.avatarBaner1 {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-image: url("/img/customers/customer-1.jpg");
+  background-size: cover;
+  position: absolute;
+}
+
+.avatarBaner2 {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-image: url("/img/customers/customer-2.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 50px;
+}
+
+.avatarBaner3 {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-image: url("/img/customers/customer-3.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 100px;
+}
+
+.avatarBaner4 {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-image: url("/img/customers/customer-4.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 150px;
+}
+
+.avatarBaner5 {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-image: url("/img/customers/customer-5.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 200px;
+}
+
+.avatarBaner6 {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-image: url("/img/customers/customer-6.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 250px;
+}
+
+.avatarsTextB {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+.avatarsTextB span {
+  color: orange;
+  font-weight: bold;
+}
+
+.brandLogo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.brandMenyu {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.rightText {
+  margin-top: 130px;
+}
+
+.rightText p {
+  color: orange;
+  font-weight: bold;
+}
+.rightText h2 {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.groupWorkFlex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+
+.number {
+  font-size: 55px;
+  color: #bbbbbb;
+  padding-bottom: 10px;
+}
+
+.loremWork {
+  padding-top: 20px;
+  line-height: 23px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.textWork1 {
+  width: 49%;
+  height: 220px;
+  margin-top: 25px;
+}
+
+.imgWork1 {
+  width: 35%;
+  height: 220px;
+}
+
+.imgWork2 {
+  width: 30%;
+  height: 220px;
+  margin-left: 250px;
+}
+
+.recipeFlex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.boxRecipe {
+  width: 32%;
+  height: 420px;
+  box-shadow: 0 3px 5px rgba(77, 73, 73, 0.808);
+}
+
+.textRecipe {
+  width: 100%;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.textRecipe button {
+  color: #000;
+  background-color: rgb(12, 212, 12);
+  border: none;
+  border-radius: 15px;
+  width: max-content;
+  padding: 2px 5px;
+}
+
+.textRecipe h3 {
+  padding: 5px 0 10px 0;
+}
+.textRecipe p {
+  padding: 7px 0;
+}
+
+.textBox3 {
+  margin-top: 15px;
+}
+.textBox3 span {
+  color: orange;
+}
+.textBox3 p {
+  padding: 7px 0;
+}
+.textBox3 h3 {
+  padding: 10px 0 15px 0;
+}
