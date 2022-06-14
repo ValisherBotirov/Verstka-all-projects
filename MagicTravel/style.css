@@ -1,0 +1,505 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  background-color: #000;
+}
+
+.contaner {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.headerFlex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.logo span {
+  color: orange;
+}
+.logo h1 {
+  color: #fff;
+}
+
+.headerLink li {
+  padding-left: 30px !important;
+}
+
+.headerUl li {
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 8px;
+}
+
+.headerUl a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.headerIcon a {
+  font-size: 20px;
+  color: #fff;
+}
+.headerIcon li {
+  padding-top: 2px !important;
+}
+
+.banner {
+  width: 100%;
+  height: 80vh;
+  background-image: url("/images/vid-1.mp4");
+}
+
+video {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+video::before {
+  content: "ADVENTURE IS WORTHWHILE Dicover New Placec With Us,Adventure Awaits ";
+  position: absolute;
+  z-index: 1;
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+  width: 50%;
+}
+
+.textCenter {
+  margin: 35px 0;
+  text-align: center;
+  color: orange;
+}
+
+.textCenter span {
+  background-color: rgba(245, 203, 126, 0.76);
+  padding: 5px;
+}
+
+.bookNowFlex {
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 0 70px 0;
+}
+
+.leftBook {
+  width: 49%;
+  height: 400px;
+  background-image: url("/images/book-img.svg");
+  background-size: cover;
+  background-position-y: -60px;
+}
+
+.rightBook {
+  width: 60%;
+  height: 400px;
+  box-shadow: 0 1px 3px black;
+}
+
+.contanerForm {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.contanerForm form input {
+  display: block;
+  width: 100%;
+  height: 35px;
+  border: 1px solid black;
+  margin: 12px 0;
+}
+
+.contanerForm form input::placeholder {
+  padding-left: 15px;
+  padding-inline-start: 15px;
+}
+
+.contanerForm form label {
+  font-weight: 600;
+}
+
+.contanerForm button {
+  height: 35px;
+  width: 130px;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  display: block;
+  margin-top: 25px;
+}
+
+.packagesFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin-bottom: 55px;
+}
+
+.boxPackages {
+  width: 32%;
+  height: 450px;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 3px;
+}
+
+.contanerPackages {
+  width: 90%;
+  margin: 8px auto;
+}
+
+.loremPack {
+  padding: 8px 0;
+  line-height: 23px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.starPack {
+  color: orange;
+  font-size: 17px;
+}
+
+.sumPack {
+  padding: 8px 0;
+  font-weight: 530;
+}
+.sumPack span {
+  text-decoration: line-through;
+  font-size: 12px;
+  padding-left: 7px;
+}
+
+.btnPack {
+  height: 35px;
+  width: 130px;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  display: block;
+  margin-top: 8px;
+}
+
+.servicesFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin-bottom: 55px;
+}
+
+.boxSer {
+  width: 32%;
+  height: 200px;
+  text-align: center;
+}
+
+.textSer p {
+  padding-top: 8px;
+  line-height: 23px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.galleryFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin-bottom: 55px;
+}
+
+.boxGallery {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-1.jpg");
+  background-size: cover;
+}
+
+.boxGallery2 {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-2.jpg");
+  background-size: cover;
+}
+
+.boxGallery3 {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-3.jpg");
+  background-size: cover;
+}
+
+.boxGallery4 {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-4.jpg");
+  background-size: cover;
+}
+
+.boxGallery5 {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-5.jpg");
+  background-size: cover;
+}
+
+.boxGallery6 {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-6.jpg");
+  background-size: cover;
+}
+
+.boxGallery7 {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-7.jpg");
+  background-size: cover;
+}
+
+.boxGallery8 {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-8.jpg");
+  background-size: cover;
+}
+
+.boxGallery9 {
+  width: 32%;
+  height: 220px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+  background-image: url("/images/g-9.jpg");
+  background-size: cover;
+}
+
+.boxReview1 {
+  width: 100%;
+  height: 230px;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+}
+
+.boxReview1 p {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 5px;
+  line-height: 20px;
+}
+
+.avatarReview1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: url("/images/pic1.png");
+  background-size: cover;
+  margin: 10px auto;
+  border: none;
+  padding-top: 30px;
+}
+
+.avatarReview2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: url("/images/pic2.png");
+  background-size: cover;
+  margin: 10px auto;
+  border: none;
+  padding-top: 30px;
+}
+
+.avatarReview3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: url("/images/pic3.png");
+  background-size: cover;
+  margin: 10px auto;
+  border: none;
+  padding-top: 30px;
+}
+
+.contactFlex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+  margin-top: 30px;
+}
+
+.leftContact {
+  width: 49%;
+  height: 480px;
+  background-image: url("/images/contact-img.svg");
+  background-size: cover;
+}
+
+.rightContact {
+  width: 49%;
+  height: 400px;
+  box-shadow: 0 0 6px black;
+  margin-top: 80px;
+}
+
+.contanerContact {
+  width: 95%;
+  margin: 25px auto;
+}
+
+.leftContactMidle {
+  width: 100%;
+  height: 430px;
+}
+
+.formContactFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 5px;
+}
+
+.formContactFlex input {
+  width: 49%;
+  height: 40px;
+  background-color: rgba(233, 233, 233, 0.377);
+  border: none;
+}
+
+.formContactFlex input::placeholder {
+  padding-left: 15px;
+}
+
+.formContactFlex .messageContact {
+  width: 100%;
+  height: 160px;
+  position: relative;
+}
+
+.formContactFlex .messageContact::placeholder {
+  position: absolute;
+  top: 15px;
+}
+
+.btnContactPageMidle {
+  width: 33%;
+  height: 35px;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  display: block;
+  margin-top: 11px;
+}
+
+.groupIcon {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 50px 0;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  margin-top: 60px;
+  color: #fff;
+}
+
+.groupFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.groupFooter h2 {
+  padding-top: 30px;
+}
+
+.educaFooter {
+  width: 28%;
+}
+
+.educaFooter > p {
+  padding-top: 15px;
+  line-height: 25px;
+}
+
+.quickLink {
+  width: 17%;
+}
+.quickLink > p {
+  padding: 15px 0;
+}
+
+.usesfulLinks {
+  width: 17%;
+}
+.usesfulLinks > p {
+  padding: 15px 0;
+}
+
+.newsLetter {
+  width: 30%;
+}
+.newsLetter > p {
+  /* padding-top: 15px; */
+}
+
+.formFooter {
+  padding-top: 15px;
+}
+.formFooter input {
+  display: block;
+  height: 30px;
+  border: 1px solid #fff;
+  width: 240px;
+  margin: 15px 0;
+}
+
+.formFooter input::placeholder {
+  padding-left: 10px;
+}
+
+.btnFooter {
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  color: #000;
+  border: 1px solid #fff;
+}
+
+.hrFooter {
+  border: 1px solid #fff;
+  margin-top: 40px;
+}
+
+.footerBy {
+  text-align: center;
+  padding-bottom: 40px 0;
+  margin: 30px 0;
+}
