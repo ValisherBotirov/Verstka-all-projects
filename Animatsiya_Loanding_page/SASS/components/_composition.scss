@@ -1,0 +1,70 @@
+.compositions {
+  padding-top: 3rem;
+  position: relative;
+  &:hover &__photo:not(:hover) {
+    transform: scale(0.8);
+  }
+}
+
+.compositions__photo {
+  position: absolute;
+  transition: all 0.4s;
+
+  &.compositions__photo--1 {
+    top: 3rem;
+    left: 0;
+    z-index: 10;
+
+    &:hover {
+      outline: 8px solid green;
+      border-radius: 15px;
+      outline-offset: 10px;
+      transform: scale(1.2);
+      z-index: 20;
+    }
+  }
+
+  &.compositions__photo--2 {
+    right: 2rem;
+    top: 8rem;
+    z-index: 10;
+
+    &:hover {
+      outline: 8px solid green;
+      border-radius: 15px;
+      outline-offset: 10px;
+      transform: scale(1.2);
+      z-index: 20;
+    }
+  }
+
+  &.compositions__photo--3 {
+    right: 14rem;
+    top: 15rem;
+    z-index: 10;
+
+    &:hover {
+      outline: 8px solid green;
+      border-radius: 15px;
+      outline-offset: 10px;
+      transform: scale(1.2);
+      z-index: 20;
+    }
+  }
+}
+
+// feature-box
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1.5rem 4rem;
+  padding: 2.5rem;
+  border-radius: 3px;
+  margin-top: -12rem;
+  transition: 0.5s;
+
+  &:hover {
+    transform: translateY(-2rem) scale(1.08);
+  }
+}

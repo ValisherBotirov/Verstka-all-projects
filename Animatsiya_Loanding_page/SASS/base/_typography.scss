@@ -1,0 +1,208 @@
+.header__banner {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2rem;
+  margin-top: 13rem;
+  line-height: 2.8rem;
+
+  .header__banner--h2 {
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+
+    animation-name: moveLeft;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+  }
+
+  .header__banner--h3 {
+    animation-name: moveRight;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+  }
+  .header__banner--button {
+    height: 4rem;
+    width: 20rem;
+    color: #000;
+    border: none;
+    border-radius: 2rem;
+    background-color: #fff;
+    display: block;
+    margin: 2rem auto;
+    position: relative;
+
+    animation-name: moveButton-bottom;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+
+    &::after {
+      content: " ";
+      position: absolute;
+      height: 4rem;
+      width: 20rem;
+      display: inline-block;
+      border-radius: 2rem;
+      background-color: #fff;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all 0.4s;
+    }
+    &:hover.header__banner--button::after {
+      transform: scale(2);
+      /* z-index: 1; */
+      opacity: 0;
+    }
+  }
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-primary,
+    $color-primary-dark
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: all 0.2s;
+  letter-spacing: 2px;
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg);
+    box-shadow: 0 1.5rem 3rem rgba(#000, 0.2);
+  }
+}
+
+.heading-tertiary {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+// .heading-tertiary:first-of-type {
+//   padding-top: 5rem;
+// }
+
+.text-box {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+.feature-box__icon {
+  font-size: 7rem;
+  background-image: linear-gradient(
+    to right,
+    $color-primary,
+    $color-primary-dark
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  color: transparent;
+  margin-bottom: 1rem;
+}
+
+// Card items
+
+.card-picture {
+  height: 24rem;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  background-blend-mode: hue;
+  background-size: cover;
+  &__1 {
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
+      url("../img/nat-5.jpg");
+  }
+  &__2 {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485),
+      url(../img/nat-6.jpg);
+  }
+  &__3 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
+      url(../img/nat-7.jpg);
+  }
+}
+
+.card__heading {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1.5rem 0.8rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: right;
+  position: absolute;
+  line-height: 3rem;
+  right: 4%;
+  top: 27%;
+  width: 45%;
+  p {
+    font-size: 2.5rem;
+  }
+  &.heading-color__card-1 {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 185, 0, 0.85),
+      rgba(255, 119, 48, 0.85)
+    );
+  }
+  &.heading-color__card-2 {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.85),
+      rgba(40, 180, 133, 0.85)
+    );
+  }
+  &.heading-color__card-3 {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(41, 152, 255, 0.85),
+      rgba(86, 67, 250, 0.85)
+    );
+  }
+}
+
+// front card elements
+.card_elements {
+  color: #000;
+  font-size: 1.6rem;
+  text-align: center;
+  ul {
+    list-style: none;
+    padding: 0.5rem 0;
+    li {
+      padding: 1.5rem 0;
+      width: 65%;
+      margin: 0 auto;
+      &:not(:last-child) {
+        border-bottom: 1px solid #d4d4d4;
+      }
+    }
+  }
+}
+
+// back card elements
+.card__back--elements {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.6rem;
+  padding: 2rem;
+  margin-top: 9rem;
+  p {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 5rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+  }
+}

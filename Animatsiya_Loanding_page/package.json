@@ -1,0 +1,22 @@
+{
+  "name": "dir",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValisherBotirov/Animation-Loanding-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValisherBotirov/Animation-Loanding-Page/issues"
+  },
+  "homepage": "https://github.com/ValisherBotirov/Animation-Loanding-Page#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

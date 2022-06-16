@@ -1,0 +1,47 @@
+.footer {
+  padding: 20rem 0;
+  background-color: #000;
+  color: #fff;
+  &__logo {
+    text-align: center;
+    margin-top: -10rem;
+
+    &-icon {
+      width: 15rem;
+    }
+  }
+
+  &__navigation {
+    margin-top: 4rem;
+  }
+  &__list {
+    list-style: none;
+  }
+  &__item {
+    display: inline-block;
+    &:not(:first-child) {
+      padding-left: 2.2rem;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      color: green;
+      transform: skewY(10deg) scale(1.2);
+
+      background-color: transparent;
+    }
+  }
+  &__hr {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+
+  &__lorem {
+    line-height: 2.3rem;
+  }
+}
