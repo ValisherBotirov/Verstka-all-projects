@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 400px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.sqr {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgb(9, 255, 9);
+  /* border: 5px solid black; */
+  outline: 5px solid black;
+  top: -50%;
+  left: 42%;
+  transition: all 1s;
+  z-index: -1;
+}
+
+.sqr::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  clip-path: polygon(0 0, 50% 50%, 100% 0, 0 0);
+  transform: rotate(150deg);
+  top: 24px;
+  right: -8px;
+  z-index: 1000;
+}
+
+.sqr::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+  top: 28px;
+  left: -7px;
+  clip-path: polygon(0 0, 50% 50%, 100% 0, 0 0);
+  transform: rotate(230deg);
+
+  z-index: 1000;
+}
+
+.icon {
+  font-weight: bold;
+  z-index: 300;
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+}
+.input1 {
+  left: 33px;
+}
+.input1:checked ~ .label1 {
+  transform: translateY(-40px);
+}
+.input1:checked ~ .sqr {
+  transform: translateX(-150px);
+}
+
+.input2 {
+  left: 113px;
+}
+.input3:checked ~ .label3 {
+  transform: translateY(-40px);
+}
+.input2:checked ~ .label2 {
+  transform: translateY(-40px);
+}
+.input2:checked ~ .sqr {
+  transform: translateX(-75px);
+}
+.input4 {
+  right: 113px;
+}
+.input4:checked ~ .label4 {
+  transform: translateY(-40px);
+}
+.input4:checked ~ .sqr {
+  transform: translateX(80px);
+}
+.input5 {
+  right: 33px;
+}
+.input5:checked ~ .label5 {
+  transform: translateY(-40px);
+}
+.input5:checked ~ .sqr {
+  transform: translateX(160px);
+}
+
+label {
+  font-size: 25px;
+  transition: all 1s;
+}
